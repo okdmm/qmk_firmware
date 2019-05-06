@@ -24,16 +24,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-#define MASTER_LEFT
-// #define MASTER_RIGHT
+#define MASTER_RIGHT
 // #define EE_HANDS
 
 #define SSD1306OLED
 
 #define USE_SERIAL_PD2
+#define COMBO_COUNT 4
+#define COMBO_TERM 50
 
-#define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 50
+#define TAPPING_TERM 200
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -43,5 +43,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
 
-#define MOUSEKEY_DELAY      300
-#define MOUSEKEY_INTERVAL    50
